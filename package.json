@@ -1,0 +1,31 @@
+{
+  "name": "cheers.js",
+  "version": "0.0.1",
+  "description": "Cheers to gulp modules",
+  "main": "lib/cheers.js",
+  "keywords": [
+    "gulp"
+  ],
+  "bin": {
+    "cheers": "./bin/cheers"
+  },
+  "author": " (o Δ o)",
+  "license": "MIT License",
+  "dependencies": {
+    "argv": "0.0.2",
+    "gulp": "^3.8.10",
+    "coffee-script": "^1.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wn9FHW2nhO/Cheers.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wn9FHW2nhO/Cheers.js/issues"
+  },
+  "homepage": "https://github.com/wn9FHW2nhO/Cheers.js",
+  "scripts": {
+    "prepublish": "coffee -o lib/ -c src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
